@@ -1,17 +1,4 @@
-class Node {
-    constructor(value, next = null) {
-        this.value = value;
-        this.next = next;
-    }
-}
-
-class LinkedList {
-    constructor(value = null) {
-        this.head = value
-    }
-
-
-}
+import { Node, LinkedList } from './LinkedList.js'
 
 const a = new Node(10)
 const b = new Node(20)
