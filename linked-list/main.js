@@ -24,6 +24,11 @@ console.log("pop_front: ", list.pop_front())
 console.log("pop_back: ", list.pop_back())
 console.log("front: ", list.front())
 console.log("back: ", list.back())
+console.log("insert: ",list.insert(0, 20))
+console.log("print: ", list.print())
+console.log("reverse: ", list.reverse())
+console.log("print: ", list.print())
+console.log("remove_value", list.remove_value("delhi"))
 
 // const printValues = (head) => {
 //     let current = head;
