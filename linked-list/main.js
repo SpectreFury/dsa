@@ -12,8 +12,18 @@ const list = new LinkedList()
 
 list.push_back("new-york")
 list.push_back("delhi")
+list.push_back("jakarta")
+list.push_back("buenos aires")
 
-console.log(list)
+console.log("Linked List: ", list)
+console.log("Size: ", list.size())
+console.log("Is Empty: ", list.empty())
+console.log("Value at index 1: ", list.value_at(4))
+console.log("push_front: ", list.push_front(10))
+console.log("pop_front: ", list.pop_front())
+console.log("pop_back: ", list.pop_back())
+console.log("front: ", list.front())
+console.log("back: ", list.back())
 
 // const printValues = (head) => {
 //     let current = head;
