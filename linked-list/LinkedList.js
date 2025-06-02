@@ -10,4 +10,22 @@ export class LinkedList {
         this.head = value
     }
 
+    push_back(value) {
+        const node = new Node(value)
+
+        if (!this.head) {
+            this.head = node;
+            return;
+        }
+
+        let current = this.head;
+
+        while (current.next) {
+            current = current.next;
+        }
+
+        current.next = node;
+        return value;
+
+    }
 }
