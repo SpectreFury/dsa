@@ -23,7 +23,6 @@ def twoSumOptimal(nums, target):
     
     hashmap[n] = i
 
-  
 
 print(twoSum([1,2,3,4], 3))
 print(twoSumOptimal([1,2,3,4], 3))
