@@ -1,6 +1,7 @@
-# Brute Force
-# Time -> O(n)
-# Space -> O(n)
+// Brute Force
+// Time -> O(n)
+// Space -> O(n)
+
 def validPalindrome(s): 
 
     newStr = ""
@@ -36,4 +37,3 @@ def validPalindromeOptimal(s):
 s = "Was it a car or a cat I saw?"
 
 print(validPalindrome(s))
-
