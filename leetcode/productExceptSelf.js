@@ -1,0 +1,4 @@
+function productExceptSelf(nums) {
+
+
+}
